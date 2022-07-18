@@ -1,0 +1,627 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Edu SA Beginner', cursive;
+    background-color:antiquewhite;
+}
+
+.blank {
+    padding-bottom: 5rem;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_container {
+    padding: 7.8rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h1 {
+    display: flex;
+    width: 100%;
+    font-family: 'Monoton', cursive;
+    font-size: 8rem;
+    color:black;
+}
+
+.content h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+}
+
+.content h3 {
+    font-family: 'Edu SA Beginner', cursive;
+    display: flex;
+    justify-content: left;
+    }
+
+.links {
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 1.35rem;
+    padding: 0 6rem;
+    font-family: 'Edu SA Beginner', cursive;
+    color:crimson;
+    font-weight: 500;
+}
+
+.links a:hover {
+    color: black;
+    transition: all 0.5s ease-in-out;
+}
+
+.skills-section {
+    padding: 8rem 12rem;
+  }
+  
+  #skills_title {
+    font-family: 'Edu SA Beginner', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    padding-bottom: 1.8rem;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #1A1C1C;
+  }
+
+  .skills-bar-container ul {
+    list-style: none;
+    padding: 25px 0;
+    width: 100%;
+  }
+  
+  .skills-bar-container li {
+    background: #1A1C1C;
+    height: 5px;
+    margin-bottom: 45px;
+    padding-left: 0px;
+    position: relative;
+    width: 100%;  
+  }
+  
+  .skills-bar-container h1 {
+    margin-bottom: 50px;
+  }
+  
+  .skills-bar-container label {
+    color: #1A1C1C;
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+  
+  .skills-bar-container .percent {
+    color: #1A1C1C;
+    font-size: .96em;
+    float: right;
+  }
+  
+  .progressbar {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    border-radius: 5px;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+  }
+  
+  #progress-html {
+    animation-name: progress-html;
+    animation-delay: .7s;
+  }
+  
+  #progress-css {
+    animation-name: progress-css;
+    animation-delay: 1.4s;
+  }
+  
+  #progress-javascript {
+    animation-name: progress-javascript;
+    animation-delay: 2.1s;
+  }
+  
+  #progress-reactjs {
+    animation-name: progress-reactjs;
+    animation-delay: 2.8s;
+  }
+  
+  #progress-wordpress {
+    animation-name: progress-wordpress;
+    animation-delay: 3.5s;
+  }
+  
+  .progressred {
+    background-color: #ff3d2e;
+  }
+  
+  @keyframes progress-html {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes progress-css {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 90%;
+    }
+  }
+  
+  @keyframes progress-javascript {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+  
+  
+  @keyframes progress-reactjs {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 45%;
+    }
+  }
+  
+  .projects {
+    width: 100%;
+    padding: 3.3rem 0;
+  }
+
+  .projects h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Edu SA Beginner', cursive;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #1A1C1C;
+  }
+
+  .projects_container {
+    width: 100%;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projects img {
+    width: 60rem;
+    padding: 2rem 3rem;
+    cursor: pointer;
+    border: #1A1C1C;
+    border-style:dotted;
+    border-radius: 2rem;
+    border-width: 1px;
+  }
+
+  .projects img:hover {
+    opacity: 0.5;
+    transition: 0.5s ease;
+  }
+
+  .about {
+    width: 100%;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about_box {
+    padding: 5rem 0;
+    width: 60%;
+    text-align: left;
+    justify-content: start;
+    line-height: 1.3;
+    border: solid #1A1C1C;
+    border-style: dotted;
+    border-radius: 2rem;
+    border-width: 2px;
+  }
+
+  .about h1 {
+    font-family: 'Edu SA Beginner', cursive;
+    color: #1A1C1C;
+  }
+
+  .about p {
+    font-size: 1rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .image_box {
+    width: 100%;
+    display: flex;  
+    justify-content: center;
+    height: 40rem;
+    width: 50rem;
+  }
+
+  .image_box img {
+    width: 40rem;
+  }
+
+  .contact_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  form {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 30rem;
+  }
+
+  .contact_container h1 {
+    background: #fefefe;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1A1C1C;
+  }
+
+  form input, form textarea {
+    border: solid #1A1C1C;
+    border-width: 1px;
+    border-radius: 1rem;
+    margin: 10px 0;
+    padding: 1.5rem;
+    background: #fefefe;
+    font-size: 18px;
+  }
+
+  form button {
+    padding: 1rem;
+    background: #ff3d2e;
+    color: #fefefe;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: #1A1C1C;
+    outline: none;
+    cursor: pointer;
+    width: 10rem;
+    margin: 20px auto 0;
+    border-radius: 2rem;
+  }
+
+  form button:hover {
+    color: #1A1C1C;
+    transition: 0.3s ease-in-out;
+  }
+
+  @media (max-width:960px) {
+    .blank {
+      width: 100%;
+      display: flex;
+    }
+    
+    .content {
+      padding: 2rem 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .content h1 {
+      width: 100%;
+      font-size: 5.5rem;
+      padding: 0 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .content h2 {
+      width: 100%;
+      font-size: 2rem;
+      padding: 0 1rem;
+    }
+
+    .content h3 {
+      width: 100%;
+      padding: 0 1rem;
+    }
+
+    .links {
+      width: 100%;
+      font-size: 0.8rem;
+    }
+
+    .links_container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .skills-section {
+      width: 100%;
+      padding: 8rem 3rem;
+    }
+
+    .projects {
+      width: 100%;
+    }
+
+    .projects_container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .projects_container img {
+      width: 100%;
+    }
+
+    .about {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .about_box {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .image_box {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+    }
+
+    .image_box img {
+      width: 95%;
+      padding: 1.5rem 0;
+    }
+
+  }
+
+  @media (max-width:760px) {
+    .blank {
+      width: 100%;
+      display: flex;
+    }
+    
+    .content {
+      padding: 2rem 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .content h1 {
+      width: 100%;
+      font-size: 4rem;
+      padding: 0 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .content h2 {
+      width: 100%;
+      font-size: 2rem;
+      padding: 0 1rem;
+    }
+
+    .content h3 {
+      width: 100%;
+      padding: 0 1rem;
+    }
+
+    .links {
+      width: 100%;
+      font-size: 0.8rem;
+    }
+
+    .links_container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .skills-section {
+      width: 100%;
+      padding: 8rem 3rem;
+    }
+
+    .projects {
+      width: 100%;
+    }
+
+    .projects_container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .projects_container img {
+      width: 100%;
+    }
+
+    .about {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .about_box {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .image_box {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+    }
+
+    .image_box img {
+      width: 95%;
+      padding: 1.5rem 0;
+    }
+
+  }
+
+  @media (max-width:560px) {
+    .blank {
+      width: 100%;
+      display: flex;
+    }
+    
+    .content {
+      padding: 3rem 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .content h1 {
+      width: 100%;
+      font-size: 3rem;
+      padding: 0 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .content h2 {
+      width: 100%;
+      font-size: 2rem;
+      padding: 0 1rem;
+    }
+
+    .content h3 {
+      width: 100%;
+      padding: 0 1rem;
+    }
+
+    .links {
+      width: 100%;
+      font-size: 0.8rem;
+    }
+
+    .links_container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .skills-section {
+      width: 100%;
+      padding: 8rem 3rem;
+    }
+
+    .projects {
+      width: 100%;
+    }
+
+    .projects_container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .projects_container img {
+      width: 100%;
+    }
+
+    .about {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .about_box {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .image_box {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+    }
+
+    .image_box img {
+      width: 95%;
+      padding: 1.5rem 0;
+    }
+
+  }
+  
+  @media (max-width:360px) {
+    .content {
+      padding: 1.5rem 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
